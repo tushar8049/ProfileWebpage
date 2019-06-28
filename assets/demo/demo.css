@@ -860,3 +860,8 @@
 .flash {
   animation-name: flash;
 }
+
+.skill-logos{
+  font-size: 4.5rem;
+  line-height: 1.5rem !important;
+}
