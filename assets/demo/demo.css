@@ -862,6 +862,21 @@
 }
 
 .skill-logos{
-  font-size: 4.5rem;
+  font-size: 4.5rem !important;
   line-height: 1.5rem !important;
+}
+
+.company-logo{
+  width: 9.5rem;
+}
+
+.company-logo-container{
+  padding-top: 2.0rem;
+  text-align: center;
+  vertical-align: center;
+}
+
+.date-align-right{
+  padding-top: 1.0rem;
+  text-align: right;
 }
