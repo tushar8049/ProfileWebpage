@@ -387,7 +387,7 @@
 }
 
 .sharing-area {
-  margin-top: 80px;
+  margin-top: 0;
 }
 
 .sharing-area .btn {
@@ -863,7 +863,8 @@
 
 .skill-logos{
   font-size: 4.5rem !important;
-  line-height: 1.5rem !important;
+  line-height: 4rem !important;
+  padding: 2rem;
 }
 
 .company-logo{
@@ -879,4 +880,14 @@
 .date-align-right{
   padding-top: 1.0rem;
   text-align: right;
+}
+
+.connect-section{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.connect-buttons{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
