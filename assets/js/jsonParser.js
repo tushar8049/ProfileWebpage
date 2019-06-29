@@ -1,7 +1,7 @@
 function loadProjects(){
     var project = [];
 
-    $.getJSON('project.json', function(data) {
+    $.getJSON('assets/js/jsonParser.js', function(data) {
         console.log(data)
         $.each(data.project, function(i, f) {
             console.log(f.firstName);
