@@ -2,10 +2,13 @@ $(document).ready( function() {
     var project = [];
 
     $.getJSON('./project.json', function(data) {
-        console.log(data)
+        console.log(data);
+        console.log(data.project);
+        console.log(data["project"]);
         var count = 1;
         $.each(data.project, function(i, f) {
             console.log(f.projectName);
+            console.log(i.projectName);
             // var tblRow = "<tr>" + "<td>" + f.firstName + "</td>" +
             //     "<td>" + f.lastName + "</td>" + "<td>" + f.job + "</td>" + "<td>" + f.roll + "</td>" + "</tr>"
             // $(tblRow).appendTo("#userdata tbody");
