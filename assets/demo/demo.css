@@ -901,3 +901,8 @@
   color: #00bcd4 !important;
   border: 1px solid #00bcd4 ;
 }
+
+.projectList-row{
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}

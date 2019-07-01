@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7790f220-ff17-479a-b800-453efcdcc45e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/demo/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/demo/demo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/jsonParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jsonParser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="395" column="18" lean-forward="true" selection-start-line="375" selection-start-column="12" selection-end-line="395" selection-end-column="18" />
+            <state relative-caret-position="272">
+              <caret line="375" selection-start-line="375" selection-end-line="375" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#11505#11511#0" expanded="true" />
@@ -34,8 +34,6 @@
                 <element signature="e#12611#12617#0" expanded="true" />
                 <element signature="e#12572#12578#0" expanded="true" />
                 <element signature="e#12626#12632#0" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -54,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/demo/demo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="900" column="16" selection-start-line="900" selection-start-column="16" selection-end-line="900" selection-end-column="16" />
+            <state relative-caret-position="450">
+              <caret line="883" column="18" lean-forward="true" selection-start-line="883" selection-start-column="18" selection-end-line="883" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -82,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/jsonParser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="97" selection-start-line="20" selection-start-column="88" selection-end-line="20" selection-end-column="103" />
+            <state relative-caret-position="93">
+              <caret line="50" column="51" lean-forward="true" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -91,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="425">
+              <caret line="25" column="124" selection-start-line="25" selection-start-column="124" selection-end-line="25" selection-end-column="124" />
             </state>
           </provider>
         </entry>
@@ -124,8 +122,8 @@
       <find>modals</find>
       <find>modal-backdrop</find>
       <find>navigation pill</find>
-      <find>.nav-link:hover</find>
       <find>btn-info</find>
+      <find>.nav-link:hover</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,8 +141,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/assets/js/core/bootstrap-material-design.min.js" />
         <option value="$PROJECT_DIR$/assets/css/material-kit.css" />
-        <option value="$PROJECT_DIR$/assets/demo/demo.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/demo/demo.css" />
         <option value="$PROJECT_DIR$/assets/js/jsonParser.js" />
         <option value="$PROJECT_DIR$/project.json" />
       </list>
@@ -281,7 +279,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561690164727</updated>
       <workItem from="1561690169167" duration="15565000" />
-      <workItem from="1561764718744" duration="13104000" />
+      <workItem from="1561764718744" duration="13853000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1561690500149</created>
@@ -395,11 +393,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561991799745</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="index.html">
+      <created>1561992743132</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1561992743132</updated>
+    </task>
+    <task id="LOCAL-00018" summary="index.html">
+      <created>1561992842966</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1561992842966</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28669000" />
+    <option name="totallyTimeSpent" value="29418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -607,17 +619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/demo/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="900" column="16" selection-start-line="900" selection-start-column="16" selection-end-line="900" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="395" column="18" lean-forward="true" selection-start-line="375" selection-start-column="12" selection-end-line="395" selection-end-column="18" />
+        <state relative-caret-position="272">
+          <caret line="375" selection-start-line="375" selection-end-line="375" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#11505#11511#0" expanded="true" />
@@ -628,24 +633,29 @@
             <element signature="e#12611#12617#0" expanded="true" />
             <element signature="e#12572#12578#0" expanded="true" />
             <element signature="e#12626#12632#0" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/demo/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="883" column="18" lean-forward="true" selection-start-line="883" selection-start-column="18" selection-end-line="883" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/jsonParser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="97" selection-start-line="20" selection-start-column="88" selection-end-line="20" selection-end-column="103" />
+        <state relative-caret-position="93">
+          <caret line="50" column="51" lean-forward="true" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="425">
+          <caret line="25" column="124" selection-start-line="25" selection-start-column="124" selection-end-line="25" selection-end-column="124" />
         </state>
       </provider>
     </entry>

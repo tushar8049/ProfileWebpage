@@ -14,10 +14,10 @@ $(document).ready( function() {
             // $(tblRow).appendTo("#userdata tbody");
 
 
-            var modalList = "<div class=\"row\">\n" +
+            var modalList = "<div class=\"row projectList-row\">\n" +
                 "              <div class=\"col-lg-10 col-md-10 \">\n" +
                 "                <div class=\"row\">\n" +
-                "                  <h3 class=\"col-6\"> + f.projectName + </h3>\n" +
+                "                  <h3 class=\"col-6\">" + f.projectName + "</h3>\n" +
                 "                  <h4 class=\"col-6 date-align-right\">Duration: " + f.projectDuration + " </h4>\n" +
                 "                </div>\n" +
                 "                <p><b>Technology Stack:</b>" + f.technologyUsed + "</p>\n" +
@@ -48,6 +48,8 @@ $(document).ready( function() {
                 "                </button>\n" +
                 "              </div>\n" +
                 "              <div class=\"modal-body\">\n" +
+                "                <p> " + f.projectDescription + "\n" +
+                "                </p>\n" +
                 "                <p> " + f.technologyUsed + "\n" +
                 "                </p>\n" +
                 "              </div>\n" +
