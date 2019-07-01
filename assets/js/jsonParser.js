@@ -1,6 +1,6 @@
 $(document).ready( function() {
-    var project = [];
 
+    // Load Projects
     $.getJSON('./project.json', function(data) {
         console.log(data);
         console.log(data.project);
@@ -13,12 +13,11 @@ $(document).ready( function() {
             //     "<td>" + f.lastName + "</td>" + "<td>" + f.job + "</td>" + "<td>" + f.roll + "</td>" + "</tr>"
             // $(tblRow).appendTo("#userdata tbody");
 
-
             var modalList = "<div class=\"row projectList-row\">\n" +
                 "              <div class=\"col-lg-10 col-md-10 \">\n" +
                 "                <div class=\"row\">\n" +
-                "                  <h3 class=\"col-6\">" + f.projectName + "</h3>\n" +
-                "                  <h5 class=\"col-6 date-align-right\">" + f.projectDuration + " </h5>\n" +
+                "                  <h3 class=\"col-7\">" + f.projectName + "</h3>\n" +
+                "                  <h5 class=\"col-5 date-align-right\">" + f.projectDuration + " </h5>\n" +
                 "                </div>\n" +
                 "                <p><b>Technology Stack: </b>" + f.technologyUsed + "</p>\n" +
                 "              </div>\n" +
@@ -26,7 +25,7 @@ $(document).ready( function() {
                 "                <ul class=\"nav nav-pills nav-pills-icons\" role=\"tablist\">\n" +
                 "                  <li class=\"nav-item\">\n" +
                 "                    <button class=\"nav-link btn-info text-white open-modal-btn\" data-toggle=\"modal\" data-target=\"#myModal" + count +"\">\n" +
-                "                      <i class=\"fas fa-info\"></i> View Details\n" +
+                "                      <i class=\"fas fa-info sm-hidden \"></i> View Details\n" +
                 "                    </button>\n" +
                 "                  </li>\n" +
                 "                </ul>\n" +
@@ -67,27 +66,9 @@ $(document).ready( function() {
             count = count + 1;
         });
     });
+
+
+
 });
 
 
-
-
-
-
-
-
-function loadProjects(){
-    var project = [];
-
-    $.getJSON('./project.json', function(data) {
-        console.log(data)
-        $.each(data.project, function(i, f) {
-            console.log(f.firstName);
-            // var tblRow = "<tr>" + "<td>" + f.firstName + "</td>" +
-            //     "<td>" + f.lastName + "</td>" + "<td>" + f.job + "</td>" + "<td>" + f.roll + "</td>" + "</tr>"
-            // $(tblRow).appendTo("#userdata tbody");
-        });
-
-    });
-
-}
