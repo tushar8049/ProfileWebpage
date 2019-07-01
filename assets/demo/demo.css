@@ -906,3 +906,8 @@
   margin-top: 0.3rem;
   margin-bottom: 0.3rem;
 }
+
+.details-icon{
+  vertical-align: center;
+  text-align: right;
+}

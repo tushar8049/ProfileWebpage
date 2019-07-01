@@ -18,11 +18,11 @@ $(document).ready( function() {
                 "              <div class=\"col-lg-10 col-md-10 \">\n" +
                 "                <div class=\"row\">\n" +
                 "                  <h3 class=\"col-6\">" + f.projectName + "</h3>\n" +
-                "                  <h4 class=\"col-6 date-align-right\">Duration: " + f.projectDuration + " </h4>\n" +
+                "                  <h5 class=\"col-6 date-align-right\">" + f.projectDuration + " </h5>\n" +
                 "                </div>\n" +
-                "                <p><b>Technology Stack:</b>" + f.technologyUsed + "</p>\n" +
+                "                <p><b>Technology Stack: </b>" + f.technologyUsed + "</p>\n" +
                 "              </div>\n" +
-                "              <div class=\"col-lg-2 col-md-2 \">\n" +
+                "              <div class=\"col-lg-2 col-md-2 details-icon\">\n" +
                 "                <ul class=\"nav nav-pills nav-pills-icons\" role=\"tablist\">\n" +
                 "                  <li class=\"nav-item\">\n" +
                 "                    <button class=\"nav-link btn-info text-white open-modal-btn\" data-toggle=\"modal\" data-target=\"#myModal" + count +"\">\n" +
@@ -42,14 +42,16 @@ $(document).ready( function() {
                 "          <div class=\"modal-dialog\" role=\"document\">\n" +
                 "            <div class=\"modal-content\">\n" +
                 "              <div class=\"modal-header\">\n" +
-                "                <h5 class=\"modal-title\">" + f.projectName + "</h5>\n" +
+                "                <h4 class=\"modal-title\">" + f.projectName + "</h4>\n" +
                 "                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n" +
                 "                  <i class=\"material-icons\">clear</i>\n" +
                 "                </button>\n" +
                 "              </div>\n" +
                 "              <div class=\"modal-body\">\n" +
+                "                <small> Project Description: </small>"+
                 "                <p> " + f.projectDescription + "\n" +
                 "                </p>\n" +
+                "                <small> Project Technology Stack: </small>"+
                 "                <p> " + f.technologyUsed + "\n" +
                 "                </p>\n" +
                 "              </div>\n" +
