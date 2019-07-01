@@ -13,7 +13,7 @@ $(document).ready( function() {
             //     "<td>" + f.lastName + "</td>" + "<td>" + f.job + "</td>" + "<td>" + f.roll + "</td>" + "</tr>"
             // $(tblRow).appendTo("#userdata tbody");
             var modal = "\n" +
-                "        <div class=\"modal fade\" id=\"myModal\" " + count +" tabindex=\"-1\" role=\"dialog\">\n" +
+                "        <div class=\"modal fade\" id=\"myModal" + count +"\" tabindex=\"-1\" role=\"dialog\">\n" +
                 "          <div class=\"modal-dialog\" role=\"document\">\n" +
                 "            <div class=\"modal-content\">\n" +
                 "              <div class=\"modal-header\">\n" +
