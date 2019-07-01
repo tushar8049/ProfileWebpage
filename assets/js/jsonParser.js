@@ -12,6 +12,31 @@ $(document).ready( function() {
             // var tblRow = "<tr>" + "<td>" + f.firstName + "</td>" +
             //     "<td>" + f.lastName + "</td>" + "<td>" + f.job + "</td>" + "<td>" + f.roll + "</td>" + "</tr>"
             // $(tblRow).appendTo("#userdata tbody");
+
+
+            var modalList = "<div class=\"row\">\n" +
+                "              <div class=\"col-lg-10 col-md-10 \">\n" +
+                "                <div class=\"row\">\n" +
+                "                  <h3 class=\"col-6\"> + f.projectName + </h3>\n" +
+                "                  <h4 class=\"col-6 date-align-right\">Duration: " + f.projectDuration + " </h4>\n" +
+                "                </div>\n" +
+                "                <p><b>Technology Stack:</b>" + f.technologyUsed + "</p>\n" +
+                "              </div>\n" +
+                "              <div class=\"col-lg-2 col-md-2 \">\n" +
+                "                <ul class=\"nav nav-pills nav-pills-icons\" role=\"tablist\">\n" +
+                "                  <li class=\"nav-item\">\n" +
+                "                    <button class=\"nav-link btn-info text-white open-modal-btn\" data-toggle=\"modal\" data-target=\"#myModal" + count +"\">\n" +
+                "                      <i class=\"fas fa-info\"></i> View Details\n" +
+                "                    </button>\n" +
+                "                  </li>\n" +
+                "                </ul>\n" +
+                "              <div>\n" +
+                "\n" +
+                "                </div>\n" +
+                "              </div>\n" +
+                "            </div>";
+
+
             var modal = "\n" +
                 "        <div class=\"modal fade\" id=\"myModal" + count +"\" tabindex=\"-1\" role=\"dialog\">\n" +
                 "          <div class=\"modal-dialog\" role=\"document\">\n" +
@@ -27,12 +52,12 @@ $(document).ready( function() {
                 "                </p>\n" +
                 "              </div>\n" +
                 "              <div class=\"modal-footer\">\n" +
-                "                <a href='" + f.link +"' \"button\" class=\"btn btn-link\">Github Link</a>\n" +
+                "                <a href='" + f.onlineLink +"' \"button\" class=\"btn btn-link\">Github Link</a>\n" +
                 "                <button type=\"button\" class=\"btn btn-danger btn-link\" data-dismiss=\"modal\">Close</button>\n" +
                 "              </div>\n" +
                 "            </div>\n" +
                 "          </div>\n" +
-                "        </div>"
+                "        </div>";
             $("#dynamicModal").append(modal);
             count = count + 1;
         });
