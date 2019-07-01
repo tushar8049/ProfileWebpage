@@ -5,7 +5,7 @@ $(document).ready( function() {
         console.log(data)
         var count = 1;
         $.each(data.project, function(i, f) {
-            console.log(f.firstName);
+            console.log(f.projectName);
             // var tblRow = "<tr>" + "<td>" + f.firstName + "</td>" +
             //     "<td>" + f.lastName + "</td>" + "<td>" + f.job + "</td>" + "<td>" + f.roll + "</td>" + "</tr>"
             // $(tblRow).appendTo("#userdata tbody");
@@ -30,7 +30,7 @@ $(document).ready( function() {
                 "            </div>\n" +
                 "          </div>\n" +
                 "        </div>"
-
+            $("#dynamicModal").append(modal);
             count = count + 1;
         });
     });
