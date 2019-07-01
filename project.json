@@ -1,22 +1,22 @@
 {
   "project": [
     {
-      "firstName": "Clark",
-      "lastName": "Kent",
-      "job": "Reporter",
+      "projectName": "1Clark",
+      "technologyUsed": "1Kent",
+      "link": "1Reporter",
       "roll": 20
     },
     {
-      "firstName": "Bruce",
-      "lastName": "Wayne",
-      "job": "Playboy",
-      "roll": 30
+      "projectName": "2Clark",
+      "technologyUsed": "2Kent",
+      "link": "2Reporter",
+      "roll": 20
     },
     {
-      "firstName": "Peter",
-      "lastName": "Parker",
-      "job": "Photographer",
-      "roll": 40
+      "projectName": "3Clark",
+      "technologyUsed": "3Kent",
+      "link": "3Reporter",
+      "roll": 20
     }
   ]
 }

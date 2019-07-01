@@ -895,3 +895,9 @@
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+
+.open-modal-btn:hover{
+  background-color: transparent !important;
+  color: #00bcd4 !important;
+  border: 1px solid #00bcd4 ;
+}
