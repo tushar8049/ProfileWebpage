@@ -59,6 +59,7 @@ $(document).ready( function() {
                 "          </div>\n" +
                 "        </div>";
             $("#dynamicModal").append(modal);
+            $("#modalList").append(modalList);
             count = count + 1;
         });
     });
