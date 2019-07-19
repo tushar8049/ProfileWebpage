@@ -50,6 +50,8 @@ $(document).ready( function() {
                 "                <small> Project Description: </small>"+
                 "                <p> " + f.projectDescription + "\n" +
                 "                </p>\n" +
+                "                <p> " + f.award + "\n" +
+                "                </p>\n" +
                 "                <small> Project Technology Stack: </small>"+
                 "                <p> " + f.technologyUsed + "\n" +
                 "                </p>\n" +

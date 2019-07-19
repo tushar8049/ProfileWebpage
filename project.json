@@ -5,13 +5,15 @@
       "technologyUsed": "Python along with Scikit Learn and TensorFlow.",
       "onlineLink": "1Reporter",
       "projectDescription": "Have worked on the task of predicting the price of houses based on various attributes from the dataset provided by Kaggle using various prediction techniques like AdaBoosting, XGBoost Regressor & Random Forest Regression to compare the results obtained from these techniques and find most accurate results for the dataset.",
-      "projectDuration": "November 2018 - December 2018"
+      "projectDuration": "November 2018 - December 2018",
+      "award": ""
     },
     {
       "projectName": "MASON",
       "technologyUsed": "Unity 3D for Augmented Reality alongside Vuforia API for generation of customized QR Codes and maintain its database. We used Unity server and Node JS for better synchronization of Mobile phone and Leap Motion Device. Leap Motion Device and Google Cardboard",
       "onlineLink": "2Reporter",
-      "projectDescription": "The project MASON was based on Augmented Reality and Gesture Detection Technology (Leap Motion) to provide ease and efficiency to the architects and builders in creating and displaying 3D models of their buildings from anywhere across the globe. It was a part of final year project for the Bachelor's Degree. All these projects were supposed to be augmented on customized QR Codes developed by the team. \n \n \n Award: The project was among the top 10 selected from the entire state of Gujarat, India considering it as an Idea worth converting to Startup under the banner of Startup India Yatra 2017 at Indian Institute of Management-Ahmedabad (IIM-A) and was offered Incubation at Leaf Incubator, Ahmedabad." ,
+      "projectDescription": "The project MASON was based on Augmented Reality and Gesture Detection Technology (Leap Motion) to provide ease and efficiency to the architects and builders in creating and displaying 3D models of their buildings from anywhere across the globe. It was a part of final year project for the Bachelor's Degree. All these projects were supposed to be augmented on customized QR Codes developed by the team. \n \n \n " ,
+      "award": "<small>Award:</small> <br> The project was among the top 10 selected from the entire state of Gujarat, India considering it as an Idea worth converting to Startup under the banner of Startup India Yatra 2017 at Indian Institute of Management-Ahmedabad (IIM-A) and was offered Incubation at Leaf Incubator, Ahmedabad.",
       "projectDuration": "July 2017 - May 2018"
     },
     {
@@ -19,14 +21,16 @@
       "technologyUsed": "Arduino Studio and Proteus Stimulator for stimulating the circuit before actual implementation. Uno Arduino Board and SONAR Sensor",
       "onlineLink": "3Reporter",
       "projectDescription": "The main aim of the project was to implement the railway barrier system in an automated fashion. India being a developing country does not have such a system. I and my team were successful in presenting a miniature working model for the system using several new technologies and different hardware systems.",
-      "projectDuration": "June 2016 - April 2017"
+      "projectDuration": "June 2016 - April 2017",
+      "award": ""
     },
     {
       "projectName": "Acconting and Tax Talley",
       "technologyUsed": "HTML & CSS along with Bootstrap for Front-End Development and PHP & MySQL for Back-End Development.",
       "onlineLink": "3Reporter",
       "projectDescription": "The project was developed to centralize the information on all customers from different banks. This included filters that would figure out if the person holds multiple accounts in different names using parameters like Contact number, Address, Permanent Account Number(PAN) Card and other such common details.",
-      "projectDuration": "January 2017 - March 2017"
+      "projectDuration": "January 2017 - March 2017",
+      "award": ""
     }
   ]
 }
