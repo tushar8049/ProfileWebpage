@@ -1,6 +1,6 @@
 $(document).ready( function() {
 
-    // Load Projects
+    //Load Projects
     $.getJSON('./project.json', function(data) {
         console.log(data);
         console.log(data.project);
@@ -70,6 +70,29 @@ $(document).ready( function() {
     });
 
 
+    //Load Extra Curricular
+    $.getJSON('./extraCurricular.json', function(data) {
+
+        var count = 1;
+        $.each(data.extraCurricular, function(i, f) {
+
+            var extraCurricularList = "<div class=\"row projectList-row\">\n" +
+                "              <div class=\"col-lg-12 col-md-12 \">\n" +
+                "                <div class=\"row\">\n" +
+                "                  <h3 class=\"col-7\">" + f.curricularPosition + "<small>" + f.institution + " </small> " + "</h3>\n" +
+                "                  <h5 class=\"col-5 date-align-right\">" + f.curricularDuration + " </h5>\n" +
+                "                </div>\n" +
+                "                <p>" + f.curricularDescription + "</p>\n" +
+                "              </div>\n" +
+                "\n" +
+                "                </div>\n" +
+                "              </div>\n" +
+                "            </div>";
+
+            $("#extraCurricularList").append(extraCurricularList);
+            count = count + 1;
+        });
+    });
 
 });
 
