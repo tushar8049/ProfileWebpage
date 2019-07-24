@@ -12,7 +12,7 @@ $(document).ready( function() {
                 "                  <h3 class=\"col-7\">" + f.projectName + "</h3>\n" +
                 "                  <h5 class=\"col-5 date-align-right\">" + f.projectDuration + " </h5>\n" +
                 "                </div>\n" +
-                "                <p><b>Technology Stack: </b>" + f.technologyUsed + "</p>\n" +
+                "                <p class=\"text-justify\"><b>Technology Stack: </b>" + f.technologyUsed + "</p>\n" +
                 "              </div>\n" +
                 "              <div class=\"col-lg-2 col-md-2 details-icon\">\n" +
                 "                <ul class=\"nav nav-pills nav-pills-icons\" role=\"tablist\">\n" +
@@ -41,12 +41,12 @@ $(document).ready( function() {
                 "              </div>\n" +
                 "              <div class=\"modal-body\">\n" +
                 "                <small> Project Description: </small>"+
-                "                <p> " + f.projectDescription + "\n" +
+                "                <p class=\"text-justify\"> " + f.projectDescription + "\n" +
                 "                </p>\n" +
-                "                <p> " + f.award + "\n" +
+                "                <p class=\"text-justify\"> " + f.award + "\n" +
                 "                </p>\n" +
                 "                <small> Project Technology Stack: </small>"+
-                "                <p> " + f.technologyUsed + "\n" +
+                "                <p class=\"text-justify\"> " + f.technologyUsed + "\n" +
                 "                </p>\n" +
                 "              </div>\n" +
                 "              <div class=\"modal-footer\">\n" +
@@ -74,7 +74,7 @@ $(document).ready( function() {
                 "                  <h3 class=\"col-7\">" + f.curricularPosition + "<br><small>" + f.institution + " </small> " + "</h3>\n" +
                 "                  <h5 class=\"col-5 date-align-right\">" + f.curricularDuration + " </h5>\n" +
                 "                </div>\n" +
-                "                <p>" + f.curricularDescription + "</p>\n" +
+                "                <p class=\"text-justify\">" + f.curricularDescription + "</p>\n" +
                 "              </div>\n" +
                 "\n" +
                 "                </div>\n" +
