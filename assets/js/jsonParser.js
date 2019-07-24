@@ -79,7 +79,7 @@ $(document).ready( function() {
             var extraCurricularList = "<div class=\"row projectList-row\">\n" +
                 "              <div class=\"col-lg-12 col-md-12 \">\n" +
                 "                <div class=\"row\">\n" +
-                "                  <h3 class=\"col-7\">" + f.curricularPosition + "</h3> <br> <h5>" + f.institution + " </h5> " + "\n" +
+                "                  <h3 class=\"col-7\">" + f.curricularPosition + "<br><small>" + f.institution + " </small> " + "</h3>\n" +
                 "                  <h5 class=\"col-5 date-align-right\">" + f.curricularDuration + " </h5>\n" +
                 "                </div>\n" +
                 "                <p>" + f.curricularDescription + "</p>\n" +
