@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7790f220-ff17-479a-b800-453efcdcc45e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jsonParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jsonParser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="368" column="35" selection-start-line="368" selection-start-column="35" selection-end-line="368" selection-end-column="35" />
+            <state relative-caret-position="280">
+              <caret line="178" column="85" selection-start-line="178" selection-start-column="85" selection-end-line="178" selection-end-column="85" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -70,17 +69,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/jsonParser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="263">
+              <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="102">
+              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -141,10 +140,10 @@
         <option value="$PROJECT_DIR$/assets/js/core/bootstrap-material-design.min.js" />
         <option value="$PROJECT_DIR$/assets/css/material-kit.css" />
         <option value="$PROJECT_DIR$/assets/demo/demo.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/extraCurricular.json" />
-        <option value="$PROJECT_DIR$/assets/js/jsonParser.js" />
         <option value="$PROJECT_DIR$/project.json" />
+        <option value="$PROJECT_DIR$/assets/js/jsonParser.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -283,7 +282,7 @@
       <workItem from="1561764718744" duration="16927000" />
       <workItem from="1561998443644" duration="616000" />
       <workItem from="1563547551722" duration="764000" />
-      <workItem from="1563916085967" duration="3141000" />
+      <workItem from="1563916085967" duration="8337000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1561690500149</created>
@@ -467,11 +466,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563978625996</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added projects">
+      <created>1563979203838</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1563979203838</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Changes">
+      <created>1563979506578</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1563979506578</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37013000" />
+    <option name="totallyTimeSpent" value="42209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -497,7 +510,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32719395" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32719395" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -517,7 +530,9 @@
     <MESSAGE value="index.html" />
     <MESSAGE value="award changes" />
     <MESSAGE value="Extra Curricular Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extra Curricular Changes" />
+    <MESSAGE value="added projects" />
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ISSUE_TEMPLATE.md">
@@ -632,16 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="368" column="35" selection-start-line="368" selection-start-column="35" selection-end-line="368" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/all.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2168">
@@ -659,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/jsonParser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extraCurricular.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -675,8 +673,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="102">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/jsonParser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="178" column="85" selection-start-line="178" selection-start-column="85" selection-end-line="178" selection-end-column="85" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
