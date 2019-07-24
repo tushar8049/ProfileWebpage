@@ -2,16 +2,9 @@ $(document).ready( function() {
 
     //Load Projects
     $.getJSON('./project.json', function(data) {
-        console.log(data);
-        console.log(data.project);
-        console.log(data["project"]);
+
         var count = 1;
         $.each(data.project, function(i, f) {
-            console.log(f.projectName);
-            console.log(i.projectName);
-            // var tblRow = "<tr>" + "<td>" + f.firstName + "</td>" +
-            //     "<td>" + f.lastName + "</td>" + "<td>" + f.job + "</td>" + "<td>" + f.roll + "</td>" + "</tr>"
-            // $(tblRow).appendTo("#userdata tbody");
 
             var modalList = "<div class=\"row projectList-row\">\n" +
                 "              <div class=\"col-lg-10 col-md-10 \">\n" +
@@ -73,7 +66,6 @@ $(document).ready( function() {
     //Load Extra Curricular
     $.getJSON('./extraCurricular.json', function(data) {
 
-        var count = 1;
         $.each(data.extraCurricular, function(i, f) {
 
             var extraCurricularList = "<div class=\"row projectList-row\">\n" +
@@ -90,7 +82,6 @@ $(document).ready( function() {
                 "            </div>";
 
             $("#extraCurricularList").append(extraCurricularList);
-            count = count + 1;
         });
     });
 
